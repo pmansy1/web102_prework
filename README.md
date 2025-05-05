@@ -1,53 +1,60 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework – Sea Monster Crowdfunding
 
-Submitted by: **Your Name Here**
+**Submitted by:** Patrick Manswell
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a small web app that loads a list of “games,” displays summary stats at the top, and lets users filter, search, and browse by funding status.  
 
-Time spent: **X** hours spent in total
+**Time spent:** **X** hours total
+
+---
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+- [x] Dynamically load and display a list of games as “cards”  
+- [x] Show total contributions, total amount pledged, and total number of games at the top  
+- [x] Filter buttons for **All**, **Funded Only**, and **Unfunded Only**  
+- [x] Live search bar that filters by game name as you type  
+- [x] Highlight the top two most-funded games in their own containers  
 
-The following **optional** features are implemented:
+---
 
-* [ ] List anything else that you can get done to improve the app functionality!
+## Optional Features
+
+- [ ] Lazy-load images (`loading="lazy"`)  
+- [ ] Responsive grid layout for game cards  
+- [ ] “Back to top” button  
+- [ ] Dark/light theme toggle  
+
+---
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+*Walkthrough GIF coming soon!*  
+<!-- Once you’ve recorded it, insert your GIF here: -->
+<!-- <img src="http://i.imgur.com/your-walkthrough.gif" title="Video Walkthrough" alt="Video Walkthrough" /> -->
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+*GIF created with [Kap](https://getkap.co/).*
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+---
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Wrapped all DOM-manipulation code in a `DOMContentLoaded` listener to avoid `document is not defined` errors when testing locally.  
+- Used `toLocaleString('en-US')` to format large numbers with commas.  
+- Employed array methods (`filter`, `reduce`, destructuring/spread) for concise, readable logic.
+
+---
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+```text
+Copyright 2025 Patrick Manswell
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    http://www.apache.org/licenses/LICENSE-2.0
+...
