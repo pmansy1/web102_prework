@@ -28,8 +28,9 @@ The following **required** functionality is completed:
 
 ---
 
-##[ Video Walkthrough](url)
-
+## WALKTHROUGH VIDEO
+[https://www.loom.com/share/ee50d37675af4c119c2d673668d3cc61?sid=5e890adb-e546-465d-8425-917700724fd3
+]([url](https://www.loom.com/share/ee50d37675af4c119c2d673668d3cc61?sid=5e890adb-e546-465d-8425-917700724fd3))
 
 
 *GIF created with [Loom](loom.com).*
