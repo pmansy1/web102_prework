@@ -4,7 +4,7 @@
 
 **Sea Monster Crowdfunding** is a small web app that loads a list of “games,” displays summary stats at the top, and lets users filter, search, and browse by funding status.  
 
-**Time spent:** **X** hours total
+**Time spent: 6 hours total
 
 ---
 
@@ -32,7 +32,6 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 *Walkthrough GIF coming soon!*  
-<!-- Once you’ve recorded it, insert your GIF here: -->
 <!-- <img src="http://i.imgur.com/your-walkthrough.gif" title="Video Walkthrough" alt="Video Walkthrough" /> -->
 
 *GIF created with [Kap](https://getkap.co/).*
