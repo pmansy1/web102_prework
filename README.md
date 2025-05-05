@@ -15,7 +15,7 @@ The following **required** functionality is completed:
 - [x] Dynamically load and display a list of games as “cards”  
 - [x] Show total contributions, total amount pledged, and total number of games at the top  
 - [x] Filter buttons for **All**, **Funded Only**, and **Unfunded Only**  
-- [x] Live search bar that filters by game name as you type  
+
 - [x] Highlight the top two most-funded games in their own containers  
 
 ---
@@ -23,18 +23,16 @@ The following **required** functionality is completed:
 ## Optional Features
 
 - [ ] Lazy-load images (`loading="lazy"`)  
-- [ ] Responsive grid layout for game cards  
-- [ ] “Back to top” button  
-- [ ] Dark/light theme toggle  
+- [ ] Responsive grid layout for game cards
+- [ ] Live search bar that filters by game name as you type  
 
 ---
 
-## Video Walkthrough
+##[ Video Walkthrough](url)
 
-*Walkthrough GIF coming soon!*  
-<!-- <img src="http://i.imgur.com/your-walkthrough.gif" title="Video Walkthrough" alt="Video Walkthrough" /> -->
 
-*GIF created with [Kap](https://getkap.co/).*
+
+*GIF created with [Loom](loom.com).*
 
 ---
 
